@@ -13,6 +13,8 @@
 		442D9C382871D7C900A5869A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442D9C362871D7C900A5869A /* Main.storyboard */; };
 		442D9C3A2871D7CB00A5869A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442D9C392871D7CB00A5869A /* Assets.xcassets */; };
 		442D9C3D2871D7CB00A5869A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442D9C3B2871D7CB00A5869A /* LaunchScreen.storyboard */; };
+		442D9C452871E10C00A5869A /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D9C442871E10C00A5869A /* QuizViewController.swift */; };
+		442D9C472871E74800A5869A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442D9C462871E74800A5869A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		442D9C392871D7CB00A5869A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442D9C3C2871D7CB00A5869A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		442D9C3E2871D7CB00A5869A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442D9C442871E10C00A5869A /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		442D9C462871E74800A5869A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				442D9C392871D7CB00A5869A /* Assets.xcassets */,
 				442D9C3B2871D7CB00A5869A /* LaunchScreen.storyboard */,
 				442D9C3E2871D7CB00A5869A /* Info.plist */,
+				442D9C442871E10C00A5869A /* QuizViewController.swift */,
+				442D9C462871E74800A5869A /* ResultViewController.swift */,
 			);
 			path = MathTraining;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				442D9C472871E74800A5869A /* ResultViewController.swift in Sources */,
 				442D9C352871D7C900A5869A /* ViewController.swift in Sources */,
 				442D9C312871D7C900A5869A /* AppDelegate.swift in Sources */,
 				442D9C332871D7C900A5869A /* SceneDelegate.swift in Sources */,
+				442D9C452871E10C00A5869A /* QuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
